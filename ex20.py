@@ -20,4 +20,8 @@ while x <= n:
         carry //= 10
     x += 1
 sum_of_digits = sum(digits_backwards)
-print(digits_backwards)
+digits_backwards.reverse()
+print("the number is: ")
+for i in range(len(digits_backwards)):
+    print(digits_backwards[i], end='')
+print("\nand the sum of it's digits is: ", sum_of_digits)
