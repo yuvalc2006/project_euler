@@ -1,4 +1,4 @@
-# my original solution was not optimal, made this with a bit of outside help
+# my original solution was not optimal, made this with a bit of outside help.
 
 from tqdm import tqdm
 
