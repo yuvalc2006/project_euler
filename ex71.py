@@ -28,8 +28,6 @@ if __name__ == '__main__':
 
         if i == 3:
             continue
-        if i == 6:
-            pass
         num = math.ceil(i / target)
         curr_div = i / num
         while num <= n and curr_div > closest:
