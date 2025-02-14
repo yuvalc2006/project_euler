@@ -12,6 +12,7 @@ if __name__ == '__main__':
     wanted_len = 60
     count = 0
     for n in tqdm(range(lim + 1)):
+        # history of numbers to check for repetition
         history = set()
         while True:
             if n in history:
